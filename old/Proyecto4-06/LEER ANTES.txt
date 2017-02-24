@@ -1,0 +1,4 @@
+para probar el programa correr el archivo
+proyecto4.py, y se cargara con los datos de la tabla
+entrada.txt, creando un archivo de texto nuevo para 
+arrojar los resultados

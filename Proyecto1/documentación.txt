@@ -1,0 +1,45 @@
+Documentación de programas en Python
+
+La documentación de cada función debe contener:
+
+Descripción del objetivo de la función.
+Parámetros que recibe, con su descripción.
+Valor de retorno, si lo tiene.
+Pre-condición y pos-condición, si es requerido en el proyecto.
+
+Un ejemplo de una función que obtiene un elemento de una matriz en la posición [fil,col].
+
+def obtener(self, fil, col):
+'''
+Obtiene el valor contenido en la posición (fil,col).
+ Parámetros:
+ * self: Corresponde a la instancia del objeto matriz a usar.
+ * fil : Corresponde a la fila a revisar.
+ * col : Corresponde a la columna a revisar.
+Retorna: Entero, contenido en la posición (fil,col).
+
+{ Pre: (0 <= fil < self.num_filas) /\ ( 0 <= col < self.num_columnas ) }
+{ Post: elemObt = self.elemento[fil][col] }
+'''
+
+Además para cada clase se debe la descripción de la clase.
+
+Ejemplo:
+
+class Matriz():
+
+'''
+Representa el TAD matriz con las operaciones definidas en el enunciado.
+'''
+
+Además se debe colocar una cabecera en cada archivo que describa el contenido del mismo. Ejemplo:
+
+'''
+Universidad Simon Bolívar.
+
+Laboratorio de Algoritmos y Estructuras II
+David Zaragoza Carné: ##-#####.
+Saúl Hidalgo Carné: ##-#####.
+Grupo ##.
+Archivo que contiene el TAD Matriz.
+'''

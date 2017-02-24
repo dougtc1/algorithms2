@@ -1,0 +1,9 @@
+LOAD Finales NombreFinales
+LOAD Semifinal Semifinal
+CHECK A2 A3 NombreFinales
+CHECK A2 A4 NombreFinales
+CHECK G6 G7 Semifinal
+MOVE A2 A4 NombreFinales
+CHECK THREAT P Semifinal
+PRINT NombreFinales
+PRINT Semifinal

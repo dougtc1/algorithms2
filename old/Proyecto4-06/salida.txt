@@ -1,0 +1,30 @@
+ATA 1
+ATT 2
+T 1
+TT 1
+S1
+TT 1
+TA 0
+S2
+AAAA 8
+ATA 5
+ATT 3
+TT 1
+ERROR: Cannot DELETE.
+maxlength == 4
+S3
+AAAA 8
+AATA 5
+AATT 3
+TT 1
+S4
+ERROR: Cannot CHANGE. Use CHANGEMERGE instead.
+AAAA 8
+TA 5
+TT 4
+S5
+A 0
+AA 8
+AAA 0
+AAAA 0
+maxlength == 2
